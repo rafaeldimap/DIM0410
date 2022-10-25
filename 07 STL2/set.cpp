@@ -12,6 +12,9 @@ int main() {
 	conjunto.insert(7);
 	conjunto.insert(1);
 	conjunto.insert(5);
+	conjunto.insert(25);
+	conjunto.insert(15);
+	conjunto.insert(-5);
 	conjunto.insert(3);
 	it = conjunto.find(3);
 	conjunto.erase(it);
