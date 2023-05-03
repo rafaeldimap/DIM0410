@@ -4,11 +4,11 @@ typedef long long ll;
 
 using namespace std;
 
-vector<int> numeros = {1, 2, 5, 8};
+vector<int> numeros = {1, 2, 5};
 vector<int> subconjunto;
 
 void f(int i) {
-	if(i == 4) {
+	if(i == 3) {
 		for(int i = 0; i < subconjunto.size(); i++) {
 			cout << subconjunto[i] << " ";
 		}
